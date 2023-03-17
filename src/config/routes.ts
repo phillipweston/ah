@@ -15,6 +15,8 @@ export const DEFAULT: { [namespace]: () => RoutesConfig } = {
         { path: "/status", action: "status" },
         { path: "/swagger", action: "swagger" },
         { path: "/createChatRoom", action: "createChatRoom" },
+        { path: "/getMarketplace", action: "getMarketplace" },
+        { path: "/getLaunchUrl", action: "getLaunchUrl" }
       ],
 
       /* ---------------------
